@@ -16,9 +16,9 @@ public class QuanlyNhanVien {
         System.out.format("Nhap so dien thoai nhan vien: ");
         nv.setSoDienThoai(sc.nextLine());
         System.out.format("Nhap luong nhan vien: ");
-        nv.setLuong(sc.nextInt());
+        nv.setLuong(sc1.nextInt());
         System.out.format("Nhap tuoi nhan vien: ");
-        nv.setTuoi(sc.nextInt());
+        nv.setTuoi(sc1.nextInt());
         dsNhanVien.add(nv);
         System.out.format("Them nhan vien thanh cong!\n");
     }
