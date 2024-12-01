@@ -10,15 +10,15 @@ public class QuanlyNhanVien {
         Scanner sc = new Scanner(System.in);
         Scanner sc1 = new Scanner(System.in);
         System.out.format("Nhap ten nhan vien: ");
-        String name = sc.nextLine();
+        nv.setHoTen(sc.nextLine());
         System.out.format("Nhap ma nhan vien: ");
-        String ma = sc1.nextLine();
+        nv.setMa(sc.nextLine());
         System.out.format("Nhap so dien thoai nhan vien: ");
-        String sdt = sc1.nextLine();
+        nv.setSoDienThoai(sc.nextLine());
         System.out.format("Nhap luong nhan vien: ");
-        int luong = sc.nextInt();
+        nv.setLuong(sc.nextInt());
         System.out.format("Nhap tuoi nhan vien: ");
-        int tuoi = sc.nextInt();
+        nv.setTuoi(sc.nextInt());
         dsNhanVien.add(nv);
         System.out.format("Them nhan vien thanh cong!\n");
     }
